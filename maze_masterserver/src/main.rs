@@ -24,13 +24,14 @@ lazy_static! {
 
 #[get("/api/<req>")]
 fn api(req: String) -> String {
+    println!("/api/{}", req);
     match req.as_str() {
         "health" => String::from("yes"),
         "min_port" => String::from("1337"),
         "max_port" => String::from("1338"),
         "user_queue" => String::from("0"),
         "rate_limit" => String::from("20"),
-        "hostname" => String::from("maze.pluxtore.de"),
+        "hostname" => String::from("game.liveoverflo"),
         "highscore" => board.lock().unwrap().clone(),
         "welcome" => String::from("you are not using the official server"),
         _ => String::from("invalid req lul :/"),
@@ -40,7 +41,8 @@ fn api(req: String) -> String {
 
 #[get("/api/highscore/<req>")]
 fn highscore(req : String) -> String {
-    println!("new highscore request");
+    println!("/api/highscore/{}", req);
+    println!(" [*] new highscore request");
     let key = match hex::decode(req.clone()) {
         Ok(e) => e,
         _ => return "".to_string()
