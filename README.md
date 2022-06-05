@@ -1,8 +1,12 @@
-# Maze Server
+# Maze
 
-An experimental server for LiveOverflow's game "Maze", which was developed as part of the CSCG 2020. Original repository [pluxtore/maze-server](https://github.com/pluxtore/maze-server)
+A game intended to be hacked. This game was originally developed by [LiveOverflow](https://liveoverflow.com/) as part of the CSCG (Cyber Security Challenge Germany) 2020. 
 
-## Features
+## Maze Server
+
+An experimental server for the "Maze" game, developy by [pluxtore](https://github.com/pluxtore/maze-server)
+
+### Features
 
 - [x] Basic functionality of the game such as moving around and showing emojis
 - [x] Multiplayer support for the features above
