@@ -1,6 +1,8 @@
 # Maze
 
-A game intended to be hacked. This game was originally developed by [LiveOverflow](https://liveoverflow.com/) as part of the CSCG (Cyber Security Challenge Germany) 2020. 
+A game intended to be hacked. This game was originally developed by [LiveOverflow](https://liveoverflow.com/) as part of the CSCG (Cyber Security Challenge Germany) 2020.
+
+![sneak-peek.png](resources/sneak-peek.png)
 
 ## Maze Server
 
