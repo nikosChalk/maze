@@ -1,0 +1,6 @@
+*.lock
+*.log
+maze_gameserver/clients/
+maze_gameserver/sa_handler
+maze_gameserver/target/
+maze_masterserver/target/
